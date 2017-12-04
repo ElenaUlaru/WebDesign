@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+    body{
+        
+        color: #000000;
+        font-family: "Muli", sans-serif;
+        margin: auto;
+        text-align: center;
+        }
+
+    #bg-image { 
+        width:100%;
+        height:500px;
+        background-attachment: fixed;
+        background-image: url(../images/bphoto.jpeg);
+        background-repeat: no-repeat;
+    }
+
+     #bg-image nav ul li{
+        list-style-type: none;
+     }
+     #bg-image nav {
+        width: 800px;
+        margin-top: auto;
+        margin-left: 100px;
+     }
+
+     #bg-image nav ul li a {
+        font-family: "Myriad Pro","DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+        font-size: 18px;
+        color:#747272;
+        text-decoration: none;
+        font-weight: bold;
+        text-align: center;
+        padding: 14px 16px;
+        display: block;
+     }
+
+     #bg-image nav ul li {
+        float:left;
+        background-color: #F8BDB0;
+     }
+
+     #bg-image nav ul li a:hover{
+        color: #fff;
+   
+     }
+
+     
+
+    p{
+            font-size: 18px;
+            line-height: 24px;
+            margin-top: 4px;
+    }
